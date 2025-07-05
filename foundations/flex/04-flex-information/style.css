@@ -24,3 +24,36 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* My Styling */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 32px;
+}
+
+.flowers-container {
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+}
+.flower-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  max-width: 200px;
+  /* padding: 20px; */
+}
+
+.text {
+  text-align: center;
+  /* width: 200px; */
+}
+
+/* A highlighter to see the boxes */
+.blue-container, .flower-container, .container {
+  border: 2px dashed blue;
+}
